@@ -8,10 +8,10 @@ Definition by Tom Mitchell (1998):
 
 Machine Learning is the study of algorithms that
 
-improve their performance P
+-> improve their performance P
 
-at some task T
+-> at some task T
 
-with experience E.
+-> with experience E.
 
-A well-defined learning task is given by <P, T, E>.
+-> A well-defined learning task is given by <P, T, E>.
