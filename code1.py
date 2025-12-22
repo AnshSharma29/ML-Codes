@@ -14,3 +14,5 @@ print(arr)
 df1=pd.DataFrame()
 
 print(df1)
+
+d1=np.dict()
