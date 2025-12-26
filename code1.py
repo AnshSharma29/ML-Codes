@@ -22,3 +22,5 @@ print(d1)
 d2=pd.plot()
 
 print(d2)
+
+d3=np.
