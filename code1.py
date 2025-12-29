@@ -23,6 +23,6 @@ d2=pd.plot()
 
 print(d2)
 
-d3=np.
+d3=np.plot()
 
 print()
