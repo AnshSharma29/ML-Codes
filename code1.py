@@ -25,4 +25,4 @@ print(d2)
 
 d3=np.plot()
 
-print()
+print(d3)
