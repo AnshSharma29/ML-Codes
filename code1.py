@@ -11,7 +11,10 @@ arr1=np.array(1,2,3,4)
 print(arr)
 
 
-df1=pd.DataFrame()
+data = {'Name': ['Tom', 'nick', 'krish', 'jack'],
+        'Age': [20, 21, 19, 18]}
+
+df1 = pd.DataFrame(data)
 
 print(df1)
 
