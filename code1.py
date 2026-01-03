@@ -18,9 +18,24 @@ df1 = pd.DataFrame(data)
 
 print(df1)
 
-d1=np.dict()
+# Creating a dictionary
+my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
-print(d1)
+
+# Accessing a value
+print(my_dict["banana"]) # Output: 2
+
+# Adding an item
+my_dict["date"] = 4
+
+# Iterating through keys
+for key in my_dict:
+    print(key)
+
+# Iterating through key-value pairs
+for key, value in my_dict.items():
+    print(f"{key}: {value}")
+
 
 d2=pd.plot()
 
