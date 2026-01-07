@@ -23,8 +23,10 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 # Accessing a value
 print(my_dict["banana"]) # Output: 2
 
+
 # Adding an item
 my_dict["date"] = 4
+
 
 # Iterating through keys
 for key in my_dict:
