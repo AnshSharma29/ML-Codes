@@ -32,9 +32,11 @@ my_dict["date"] = 4
 for key in my_dict:
     print(key)
 
+
 # Iterating through key-value pairs
 for key, value in my_dict.items():
     print(f"{key}: {value}")
+
 
 
 d2=pd.plot()
