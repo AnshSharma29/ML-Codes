@@ -47,7 +47,7 @@ print(d2)
 d3=np.plot()
 print(d3)
 
-d4=()
+d4=np.array()
 print(d4)
 
 
