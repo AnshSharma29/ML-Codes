@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 print(a)
 
@@ -38,9 +38,20 @@ for key, value in my_dict.items():
     print(f"{key}: {value}")
 
 
+# Sample data
+x = [5, 7, 8, 7, 2, 17, 2, 9, 4, 11, 12, 9, 6]
+y = [99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86]
 
-d2=pd.plot()
-print(d2)
+# Create the scatter plot
+plt.scatter(x, y)
+
+# Add labels and a title
+plt.xlabel('X Values')
+plt.ylabel('Y Values')
+plt.title('Basic Scatter Plot in Python')
+
+# Display the plot
+plt.show()
 
 
 d3=np.plot()
