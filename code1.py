@@ -57,10 +57,12 @@ plt.show()
 
 
 d3=np.plot()
+
 print(d3)
 
 
 d4=np.array()
+
 print(d4)
 
 
