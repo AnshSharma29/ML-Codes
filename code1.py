@@ -55,10 +55,22 @@ plt.title('Basic Scatter Plot in Python')
 # Display the plot
 plt.show()
 
+#pie chart
+# Data for the pie chart
+sizes = np.array([35, 25, 25, 15]) 
+labels = ["Apples", "Bananas", "Cherries", "Dates"]
 
-d3=np.plot()
+# Create the pie chart
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
 
-print(d3)
+# Ensure the pie chart is a perfect circle
+plt.axis('equal') 
+
+# Add a title
+plt.title('Fruit Preferences')
+
+# Display the chart
+plt.show()
 
 
 d4=np.array()
