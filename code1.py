@@ -55,6 +55,7 @@ plt.title('Basic Scatter Plot in Python')
 # Display the plot
 plt.show()
 
+
 #pie chart
 # Data for the pie chart
 sizes = np.array([35, 25, 25, 15]) 
@@ -74,7 +75,4 @@ plt.show()
 
 
 d4=np.array()
-
 print(d4)
-
-
