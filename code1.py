@@ -16,6 +16,7 @@ df1 = pd.DataFrame(data)
 
 print(df1)
 
+
 # Creating a dictionary
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
