@@ -13,7 +13,6 @@ data = {'Name': ['Tom', 'nick', 'krish', 'jack'],
         'Age': [20, 21, 19, 18]}
 
 df1 = pd.DataFrame(data)
-
 print(df1)
 
 
@@ -77,6 +76,7 @@ plt.show()
 
 d4=np.array()
 print(d4)
+
 
 d5=np.array()
 print(d5)
