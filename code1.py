@@ -10,6 +10,7 @@ print(arr1)
 data = {'Name': ['Tom', 'nick', 'krish', 'jack'],
         'Age': [20, 21, 19, 18]}
 
+
 df1 = pd.DataFrame(data)
 print(df1)
 
