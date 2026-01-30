@@ -80,3 +80,5 @@ print(d4)
 d5=np.array()
 print(d5)
 
+
+
