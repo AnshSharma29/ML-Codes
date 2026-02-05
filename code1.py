@@ -73,6 +73,7 @@ plt.title('Fruit Preferences')
 plt.show()
 
 
+
 d4=np.array()
 print(d4)
 
