@@ -8,6 +8,8 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
+
+
 # 1. Load Data (Using a sample of the Titanic dataset)
 url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 data = pd.read_csv(url)
