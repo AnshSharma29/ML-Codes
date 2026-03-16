@@ -14,6 +14,7 @@ from sklearn.metrics import classification_report
 url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 data = pd.read_csv(url)
 
+
 # Define features and target
 X = data[['Pclass', 'Sex', 'Age', 'Fare', 'Embarked']]
 y = data['Survived']
