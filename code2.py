@@ -22,6 +22,7 @@ y = data['Survived']
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+
 # 2. Define Preprocessing for Numerical and Categorical Data
 # Intermediate Tip: Use ColumnTransformer to handle different types separately
 numeric_features = ['Age', 'Fare']
