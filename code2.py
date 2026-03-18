@@ -44,6 +44,7 @@ preprocessor = ColumnTransformer(
         ('cat', categorical_transformer, categorical_features)
     ])
 
+
 # 3. Create the Full Pipeline
 # This encapsulates the preprocessing AND the model into one object
 clf = Pipeline(steps=[
