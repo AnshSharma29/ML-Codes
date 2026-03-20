@@ -52,6 +52,7 @@ clf = Pipeline(steps=[
     ('classifier', RandomForestClassifier(random_state=42))
 ])
 
+
 # 4. Hyperparameter Tuning with GridSearchCV
 # Intermediate Tip: You can tune parameters across the entire pipeline
 param_grid = {
