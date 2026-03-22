@@ -37,6 +37,7 @@ categorical_transformer = Pipeline(steps=[
     ('onehot', OneHotEncoder(handle_unknown='ignore')) # Encode strings to numbers
 ])
 
+
 # Combine transformers into a preprocessor
 preprocessor = ColumnTransformer(
     transformers=[
