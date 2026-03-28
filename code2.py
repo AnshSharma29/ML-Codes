@@ -61,6 +61,7 @@ param_grid = {
     'preprocessor__num__imputer__strategy': ['mean', 'median']
 }
 
+
 grid_search = GridSearchCV(clf, param_grid, cv=5, scoring='accuracy', n_jobs=-1)
 grid_search.fit(X_train, y_train)
 
